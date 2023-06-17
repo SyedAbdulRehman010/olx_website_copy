@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.navbar {
+  padding-left: 12%;
+
+  background-color: #f7f8f8;
+  padding-bottom: 10px;
+}
+
+.heading-title {
+  color: blue;
+  font-weight: bolder;
+  font-size: 23px;
+  margin-right: 40px;
+}
+
+.navbar-logos {
+  padding-left: 2px;
+}
+
+.navbar-items {
+  display: flex;
+  margin-top: 4px;
+}
+.navbar-items-child {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.navbar-items-child p {
+  margin-left: 6px;
+}
+
+.navbar-items2 {
+  margin-top: 15px;
+}
+.navbar-items2-start {
+  display: flex;
+}
+.navbar-items2-start h1 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.navbar-inputs {
+  height: 40px;
+  border: 0.5px solid black;
+  border-radius: 6px;
+
+  padding: 2px;
+  padding-left: 4px;
+  align-items: center;
+  display: flex;
+
+  background-color: white;
+}
+.navbar-inputs input {
+  height: 98%;
+
+  margin-left: 8px;
+}
+.main-heading {
+  margin-right: 45px;
+}
+.search-icon {
+  margin-right: 15px;
+}
+
+.text-search {
+  width: 600px;
+}
+.search-text-icon {
+  background-color: black;
+  color: white;
+  width: 44px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.search-text-icon2 {
+  background-color: black;
+  color: white;
+  width: 44px;
+  margin: 0px auto;
+}
+.mag-logo {
+  margin-left: 10px;
+}
+
+.login {
+  color: black;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+.login-div {
+  margin: auto 0px;
+  margin-left: 14px;
+}
+.login-button {
+  margin-left: 15px;
+  background-color: inherit;
+  border: 3px solid;
+  border-radius: 35%;
+  width: 80px;
+  height: 35px;
+  border-top-color: aqua;
+  border-left-color: orange;
+  border-bottom-color: blue;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding-left: 12%;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+.catg-font {
+  font-size: 14px;
+}
+.navbar-links-parent {
+  box-shadow: 0px 0.8px 2px lightgray;
+  width: 100%;
+}
+
+.content {
+  margin: 0px auto;
+}
+.content-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 13%;
+  margin-top: 16px;
+}
+.card {
+  width: 20%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  height: 280px;
+  margin-left: 14px;
+  margin-bottom: 14px;
+}
+.card-img {
+  height: 50%;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.card-heading {
+  font-weight: bolder;
+  margin-left: 15px;
+}
+.card-paragraph {
+  margin-left: 15px;
+  margin-bottom: 44px;
+}
+.card-bottom {
+  color: gray;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.center-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.cnt-btn {
+  background-color: white;
+  border: 1px solid black;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cnt-btn:hover {
+  cursor: pointer;
+}
+
+.cnt-btn:active {
+  border: 2px solid black;
+}
+
+.bottom-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #eef0f1;
+  padding-top: 5px;
+  margin-bottom: 1px;
+}
+
+.bottom-nav-items {
+  display: block;
+  text-decoration: none;
+  color: darkgray;
+  font-size: 15px;
+}
+.bottom-nav-heading {
+  font-weight: bolder;
+}
+
+.follow-us {
+  width: 25%;
+}
+.bottom-nav-icons {
+  color: gray;
+  font-size: 12px;
+  margin-right: 14px;
+}
